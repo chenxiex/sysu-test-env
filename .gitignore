@@ -4,3 +4,7 @@
 !.github/**
 !.devcontainer/
 !.devcontainer/**
+!.clangd
+!.vscode/
+!.vscode/**
+!README.md
