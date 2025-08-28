@@ -7,7 +7,7 @@
             "label": "g++ build",
             "type": "shell",
             "command": "g++-11",
-            "args": ["${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}", "-g", "-Wall"]
+            "args": ["${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}", "-g", "-Wall", "-std=gnu++11"]
         }
     ]
 }
